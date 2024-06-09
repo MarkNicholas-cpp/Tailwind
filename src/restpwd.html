@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reset Password</title>
+    <link rel="stylesheet" href="./output.css">
+</head>
+
+<body>
+    <div class="bg-gray-100 h-screen overflow-hidden">
+        <div class="flex p-12 justify-between">
+            <img src="/src/assets/logo 1.png" class="w-40" alt="Logo">
+            <select name="lang" id="lang"
+                class="self-center p-2 appearance-none bg-down-arrow bg-no-repeat text-xs rounded-md text-gray-400 inter-700 w-32">
+                <option value="Eng-us">English (US)</option>
+                <option value="Eng-uk">English (Uk)</option>
+                <option value="Eng-Britan">English (Britan)</option>
+            </select>
+        </div>
+        <div class="h-3/4 flex flex-col items-center justify-center gap-6">
+            <div class="shadow-md aspect-video bg-white rounded-2xl p-12 text-center">
+                <p class="inter-700 text-2xl text-center">Reset Password</p>
+                <p class="text-gray-400 text-xs my-3">Enter the email address associated with your account and we will
+                    send
+                    <br> you a link to reset your password.
+                </p>
+                <div class="w-full relative my-2">
+                    <div class="flex border rounded-lg">
+                        <label for="email" class="cursor-pointer p-4">
+                            <img src="/src/assets/mail.svg" alt="mail svg">
+                        </label>
+                        <input required type="email" name="email" id="email" placeholder="Email"
+                            class="rounded-md w-full py-2 focus:outline-none focus:border-none">
+                    </div>
+                    <button href="./verifyemail.html"
+                        class="block w-full border p-2 py-4 my-6 rounded-lg bg-blue-700 text-white hover:border-blue-700 hover:bg-white hover:text-blue-700 transition-all ease-out duration-500">Continue</button>
+
+                    <a class="text-sm inter-700 text-blue-700" href="./login.html">Back to Sign In</a>
+                </div>
+            </div>
+            <p class="text-center">Don’t have an account? <a href="./signup.html" class="inter-500 text-blue-700">Sign
+                    Up</a>
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>

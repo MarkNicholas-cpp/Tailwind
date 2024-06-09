@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <link rel="stylesheet" href="./output.css">
+</head>
+
+<body>
+    <div class="flex items-center h-screen overflow-hidden">
+        <div class="bg-gray-50 relative h-full w-1/2 flex-grow-1">
+            <div class="w-full">
+                <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+                    <img src="/src/assets/logo 1.png" class="w-3/2 block mx-auto" alt="">
+                    <img src="/src/assets/Cover.jpg" class="" alt="">
+                    <div class="text-center">
+                        <h3 class="text-2xl text-bold inter-700">Welcome to Lead Angles</h3>
+                        <p class="text-sm text-gray-500">Beyond Angles Investing.........</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="p-40 w-1/2">
+            <form class="input-form w-3/4">
+                <p class="text-xl text-bold inter-700">Sign In to your Account</p>
+                <p class="text-xs mb-6 text-gray-400 inter-300">Welcome back! please enter your detail</p>
+                <div class="w-full relative my-2">
+                    <div class="flex border rounded-md">
+                        <label for="email" class="cursor-pointer p-4">
+                            <img src="/src/assets/mail.svg" alt="mail svg">
+                        </label>
+                        <input required type="email" name="email" id="email" placeholder="Email"
+                            class="rounded-md w-full py-2 focus:outline-none focus:border-none">
+                    </div>
+                </div>
+                <div class="w-full relative my-2">
+                    <div class="flex border rounded-md">
+                        <label for="pwd" class="cursor-pointer p-4">
+                            <img src="/src/assets/lock.svg" alt="lock svg">
+                        </label>
+                        <input required type="password" name="pwd" id="pwd" placeholder="Passsword"
+                            class="rounded-md w-full py-2 focus:outline-none focus:border-none">
+                        <img src="/src/assets/eye-off.svg" class="p-3 cursor-pointer" alt="">
+                    </div>
+                </div>
+            </form>
+            <div class="w-3/4 ps-2">
+                <div>
+                    <input type="checkbox" name="agree" id="agree" class="bg-white float-left mt-1 mr-2">
+                    <div class="flex items-center justify-between text-xs">
+                        <label for="agree" class="cursor-pointer">Remember me</label>
+                        <a href="./restpwd.html" class="text-blue-700 inter-600">Forgot Password?</a>
+                    </div>
+                </div>
+                <button
+                    class="block w-full border p-2 my-6 rounded-md bg-blue-700 text-white hover:border-blue-700 hover:bg-white hover:text-blue-700 transition-all ease-out duration-500">Sign
+                    In</button>
+                <div class="flex w-full gap-6 items-center justify-between">
+                    <hr class="border w-1/4">
+                    <span class="text-gray-400 text-sm">Or sign In with</span>
+                    <hr class="border w-1/4">
+                </div>
+                <button class="flex items-center justify-center gap-3 w-full border p-2 my-6 rounded-md ">
+                    <img src="/src/assets/google.svg" alt="">
+                    <span class="inter-500">Google</span>
+                </button>
+                <p class="text-center">Don’t have an account? <a href="./signup.html"
+                        class="inter-500 text-blue-700">Sign Up</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

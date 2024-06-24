@@ -91,12 +91,8 @@ input[type="checkbox"]:checked ~ aside {
 }
 
 /* Hide the 'Close' label and show the 'Open' label when the checkbox is checked */
-input[type="checkbox"]:checked
-  ~ aside
-  #close-label,
-  input[type="checkbox"]:checked
-  ~ aside
-  .logo {
+input[type="checkbox"]:checked ~ aside #close-label,
+input[type="checkbox"]:checked ~ aside .logo {
   display: none;
 }
 
@@ -187,4 +183,12 @@ input[type="checkbox"]:checked ~ aside .link img {
 .div6 {
   grid-area: 3 / 3 / 4 / 4;
   background-color: #ccffff;
+}
+
+.grid-task {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
 }

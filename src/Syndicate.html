@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./input.css">
+</head>
+
+<body>
+    <div class="flex inter-300">
+        <input type="checkbox" name="toggle-aside" id="toggle-aside" class="hidden">
+        <aside
+            class="bg-primary h-screen w-[250px] transition-all duration-500 ease-in-out relative  shadow shadow-gray-900">
+            <div class="w-full h-24 py-5">
+                <img src="/src/assets/logo 1.png" class="block mx-auto w-3/4 logo" alt="Logo">
+            </div>
+            <hr>
+            <div class="absolute -right-5 top-5">
+                <label for="toggle-aside" id="close-label"
+                    class="w-12 cursor-pointer aspect-square rounded-full bg-secondary flex items-center justify-center">
+                    <img src="/src/assets/Arrow - Left.svg" alt="">
+                </label>
+                <label for="toggle-aside" id="open-label"
+                    class="w-12 cursor-pointer aspect-square rounded-full bg-secondary items-center justify-center hidden">
+                    <img src="/src/assets/Arrow - Right.svg" alt="">
+                </label>
+            </div>
+            <div class="text-white p-5 inter-600">
+                <p class="index-text text-gray-300 mb-3 transition-opacity duration-500">Home</p>
+                <a href="#"
+                    class="link px-3 flex items-center gap-3 mb-3 active:bg-secondary focus:bg-secondary p-3 rounded-sm rounded-tr-2xl transition-all duration-500">
+                    <img src="/src/assets/Dashboard Layout.svg" alt="">
+                    <p class="self-baseline text-gray-300 transition-opacity duration-500">Dashboard</p>
+                </a>
+                <hr class="border-gray-600">
+                <p class="index-text text-gray-300 my-3 transition-opacity duration-500">Pages</p>
+                <a href="#"
+                    class="link px-3 flex items-center gap-3 mb-3 active:bg-secondary focus:bg-secondary text-gray-300 focus:text-white p-3 rounded-sm rounded-tr-2xl transition-all duration-500">
+                    <img src="/src/assets/Handshake.svg" alt="">
+                    <p class="self-baseline transition-opacity duration-500">Deal</p>
+                </a>
+                <a href="#"
+                    class="link px-3 flex items-center gap-3 mb-3 active:bg-secondary focus:bg-secondary text-gray-300 focus:text-white p-3 rounded-sm rounded-tr-2xl transition-all duration-500">
+                    <img src="/src/assets/Customer.svg" alt="">
+                    <p class="self-baseline transition-opacity duration-500">Members</p>
+                </a>
+                <a href="#"
+                    class="link px-3 flex items-center gap-3 mb-3 active:bg-secondary focus:bg-secondary text-gray-300 focus:text-white p-3 rounded-sm rounded-tr-2xl transition-all duration-500">
+                    <img src="/src/assets/Bill.svg" alt="">
+                    <p class="self-baseline transition-opacity duration-500">Billing</p>
+                </a>
+                <a href="#"
+                    class="link px-3 flex items-center gap-3 mb-3 active:bg-secondary focus:bg-secondary text-gray-300 focus:text-white p-3 rounded-sm rounded-tr-2xl transition-all duration-500">
+                    <img src="/src/assets/Calendar 31.svg" alt="">
+                    <p class="self-baseline transition-opacity duration-500">Calander</p>
+                </a>
+                <a href="#"
+                    class="link px-3 flex items-center gap-3 mb-3 active:bg-secondary focus:bg-secondary text-gray-300 focus:text-white p-3 rounded-sm rounded-tr-2xl transition-all duration-500">
+                    <img src="/src/assets/Timeline.svg" alt="">
+                    <p class="self-baseline transition-opacity duration-500">Timeline</p>
+                </a>
+            </div>
+        </aside>
+        <main class="flex-grow bg-primary">
+            
+        </main>
+    </div>
+</body>
+
+</html>
